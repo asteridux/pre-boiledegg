@@ -9,8 +9,6 @@
     "prepublish": "npm run build",
     "build": "webpack",
     "watch:build": "webpack --watch",
-    "prebuild:rollup": "rimraf build && mkdri build",
-    "build:rollup": "rollup --config",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -31,7 +29,6 @@
     "babel-preset-env": "1.6.0",
     "jest": "21.0.2",
     "rimraf": "2.6.1",
-    "rollup-plugin-babel": "3.0.2",
     "standard-version": "4.2.0",
     "webpack": "3.5.6"
   },
