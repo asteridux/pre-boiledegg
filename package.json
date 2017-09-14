@@ -1,6 +1,6 @@
 {
   "name": "pre-boiledegg",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Preact project starter",
   "main": "./build/lib.js",
   "private": true,
