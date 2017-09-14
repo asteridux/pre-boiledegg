@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A Preact project starter",
   "main": "./build/lib.js",
+  "private": true,
   "scripts": {
     "release:init": "standard-version --first-release",
     "release": "standard-version",
-    "prepublish": "npm run build",
     "build": "webpack",
     "watch:build": "webpack --watch",
     "test": "jest",
@@ -22,11 +22,16 @@
     "url": "https://github.com/asteridux/pre-boiledegg/issues"
   },
   "homepage": "https://github.com/asteridux/pre-boiledegg#readme",
+  "dependencies": {
+    "preact": "8.2.5"
+  },
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-jest": "21.0.2",
     "babel-loader": "7.1.2",
+    "babel-plugin-transform-react-jsx": "6.24.1",
     "babel-preset-env": "1.6.0",
+    "copy-webpack-plugin": "4.0.1",
     "jest": "21.0.2",
     "rimraf": "2.6.1",
     "standard-version": "4.2.0",
