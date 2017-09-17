@@ -1,5 +1,7 @@
 # Pre-boiledegg
 
+![](./logo.png)
+
 ### A minimalist Preact starter kit/boilerplate
 
 Build status: [![CircleCI](https://circleci.com/gh/asteridux/pre-boiledegg.svg?style=svg)](https://circleci.com/gh/AntJanus/asteridux:Why)

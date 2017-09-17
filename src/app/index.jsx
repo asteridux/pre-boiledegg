@@ -1,6 +1,6 @@
 import { h, render, Component } from 'preact'
 
-class App extends Component {
+export class App extends Component {
   render () {
     return (
       <div>

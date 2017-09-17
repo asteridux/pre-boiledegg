@@ -31,8 +31,10 @@
     "babel-loader": "7.1.2",
     "babel-plugin-transform-react-jsx": "6.24.1",
     "babel-preset-env": "1.6.0",
+    "chai": "4.1.2",
     "copy-webpack-plugin": "4.0.1",
     "jest": "21.0.2",
+    "preact-jsx-chai": "2.2.1",
     "rimraf": "2.6.1",
     "standard-version": "4.2.0",
     "webpack": "3.5.6"
@@ -40,6 +42,11 @@
   "jest": {
     "bail": true,
     "collectCoverage": true,
+    "moduleFileExtensions": ["js", "jsx"],
+    "setupFiles": [
+      "./__tests__/setup.js"
+    ],
+    "testMatch": ["**/?(*.)(spec|test).js?(x)"],
     "verbose": true
   }
 }
